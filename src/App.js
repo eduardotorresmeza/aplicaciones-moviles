@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="app-container">
+    <header>
+      <h1> Aplicaciones Móviles</h1>
+    </header>
+    <main>
+      <section class="content">
+        <h2>Bienvenido</h2>
+        <p>Aplicación móvil en HTML y CSS.</p>
+      </section>
+      <section class="buttons">
+        <button class="btn primary">Opción 1</button>
+        <button class="btn secondary">Opción 2</button>
+        <button class="btn primary">Opción 3</button>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Mi App Móvil</p>
+    </footer>
+  </div>
   );
 }
 
